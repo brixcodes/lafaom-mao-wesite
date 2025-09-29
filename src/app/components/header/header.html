@@ -1,0 +1,90 @@
+<header id="header" class="container-fluid position-absolute">
+    <!-- Menu burger -->
+    <span class="icon-burger">
+        <button class="hamburger hamburger--spring js-hamburger" type="button" aria-label="Menu"
+            aria-controls="navigation">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+    </span>
+
+    <!-- Top bar: langue, liens top, login -->
+    <div class="header-top d-flex align-items-center justify-content-end">
+        <div class="lang-switch">
+            <div class="lang-switcher">
+                <ul>
+                    <li><span class="selectLang">En</span></li>
+                    <li><a href="/fr/">Fr</a></li>
+                </ul>
+            </div>
+        </div>
+        <ul class="list-inline nav-top">
+            <li class="list-inline-item"><a href="/" title="Lafaom">Lafaom</a></li>
+            <li class="list-inline-item"><a href="/actualites" title="Actualités">Actualités</a></li>
+            <li class="list-inline-item"><a href="/formations" title="Formations">Formations</a></li>
+            <li class="list-inline-item"><a href="/recrutements" title="Recrutement">Recrutement</a></li>
+            <li class="list-inline-item"><a href="/contact" title="Contact">Contact</a></li>
+        </ul>
+        <a href="/login/" title="Login" class="btn btn-top btn-outline-primary">Espace Candidat</a>
+    </div>
+
+    <!-- Bas de header : logo + menu principal -->
+    <div class="header-bottom d-flex align-items-end justify-content-between">
+        <!-- Logo -->
+        <div class="logo">
+            <a href="/" title="homepage">
+                <img src="/images/logo.svg" alt="Our Company">
+                <span class="sr-only">Our Company</span>
+            </a>
+        </div>
+
+        <!-- Navigation principale -->
+        <div>
+            <ul class="list-unstyled navbar">
+                <!-- Menu Services -->
+                <li class="active">
+                    <div class="sub-menu">
+
+                        <!-- Liens version mobile -->
+                        <div class="display_mobile">
+                            <ul class="list-inline nav-top">
+                                <li class="list-inline-item">
+                                    <a href="" title="lafaom">
+                                        Institut
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="/actualites" title="Actualités">
+                                        Actualités
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="/formations" title="Formations">
+                                        Formations
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="/recrutements" title="Recrutement">
+                                        Recrutement
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="/contact" title="Contact">
+                                        Contact
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://bioforce.my.site.com/candidatures/s/login/?language=fr"
+                                        title="Espace Candidat">
+                                        Espace Candidat
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
